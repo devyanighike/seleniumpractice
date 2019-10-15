@@ -13,14 +13,17 @@ public class Exception_test {
 		 System.out.print(c);
 		 
      } 
+	 catch(ArithmeticException e)  
+     {   
+         System.out.println("its an expcetion");  
+     }  
 	 catch(Exception e)  
      {   
          System.out.println("its an expcetion");  
      }  
+	 
+	 
      //handling the exception  
-     catch(ArithmeticException e)  
-     {   
-         System.out.println("its an expcetion");  
-     }  
+     
 	}
  }
